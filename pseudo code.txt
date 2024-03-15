@@ -1,0 +1,6 @@
+start
+create a functionality to fetch products from an api
+consume the data to create a list of products, and display them.
+the product should have add to cart option
+when clicked in add to cart, it should be added to cart
+the total bill amount should be displayed on the bottom.
