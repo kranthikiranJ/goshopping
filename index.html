@@ -12,11 +12,31 @@
             <div id="products-container"></div>
         </div>
         <h2  class="cart-title">Cart</h2>
+        <div class="cart-functionalities">
+            <div>
+            <select id="sort-select">
+                <option value="default">Sort by</option>
+                <option value="low-to-high">Price: Low to High</option>
+                <option value="high-to-low">Price: High to Low</option>
+            </select>
+            <input type="number" id="filter-input" placeholder="Filter by price">
+            <button id="filter-btn">Filter</button>
+            <button id="clear-filter-btn">Clear Filter</button>
+        </div>
+            <div><button id="clear-cart-btn">Clear Cart</button></div>
+
+        </div>
         <div class="cart">
             <div id="cart-container"></div>
         </div> <!-- New container for selected product containers -->
-        <div id="total-amount" class="bill-container">
-        </div> 
+        <div id="cart-summary" class="cart-summary">
+            <h2 class="summary-title" style="text-align: center;">Cart Summary</h2>
+            
+            
+            <div id="total-amount" class="bill-container" >
+
+            </div>
+        </div>
         
     <script src="./index.js"></script>
 </body>
